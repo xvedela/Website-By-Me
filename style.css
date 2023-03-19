@@ -362,3 +362,68 @@ nav {
     color: #626262;
     font-weight: 500;
 }
+
+.post-text a {
+    color: #1876f2;
+    text-decoration: none;
+}
+
+.post-img {
+    width: 1005;
+    border-radius: 4px;
+    margin-bottom: 5px;
+}
+
+
+.post-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.activity-icones div img {
+    width: 18px;
+    margin-right: 10px;
+
+}
+
+.activity-icones div {
+    display: inline-flex;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.post-profile-icone {
+    display: flex;
+    align-items: center;
+}
+
+.post-profile-icone img {
+    width: 20px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.load-more-btn {
+    display: flex;
+    margin: auto;
+    cursor: pointer;
+    padding: 5px;
+    border: 1px solid #9a9a9a;
+    color: #626262;
+    border-radius: 4px;
+}
+
+
+.settings-menu {
+    position: absolute;
+    width: 90%;
+    max-width: 350px;
+    height: 500px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    border-radius: 4px;
+    overflow: hidden;
+    top: 108%;
+    right: 5%;
+}
